@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #a199f1;
 }
 
 .purple {
@@ -62,18 +62,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #2c2042;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: #c0bdf1;
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: #a199f1;
   border-radius: 12px;
 }
 
@@ -81,7 +81,7 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color: #313049a9 !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -102,7 +102,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #02340865 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -160,8 +160,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  /* height: 1.4em !important; */
+  width: 2em !important;
 }
 
 .navbar-nav .nav-link {
@@ -199,7 +199,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #a199f1;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -270,7 +270,7 @@ button:focus {
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 14rem 0 1rem !important;
   color: whitesmoke;
   text-align: left;
 }
@@ -286,17 +286,17 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #a199f1;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #a199f1 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #7978d6 !important;
 }
 
 @media (max-width: 767px) {
@@ -312,7 +312,8 @@ button:focus {
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  padding-top: 8em !important;
+  padding-right: 2em !important;
 }
 
 @media (max-width: 767px) {
@@ -322,21 +323,30 @@ button:focus {
   }
 }
 
+.img-hor-vert {
+    -webkit-transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+  padding-left: 85px !important;
 }
 
 .home-about-description {
   color: white !important;
   padding-top: 100px !important;
   padding-bottom: 20px !important;
-  text-align: center;
+  text-align: left;
 }
 
 .home-about-body {
   padding-top: 50px;
+  padding-left: 3px; 
   font-size: 1.2em !important;
   text-align: left;
 }
@@ -376,7 +386,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: #7978d6;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -384,13 +394,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px #7978d6;
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: #7978d6;
+  box-shadow: 0 0 5px #7978d6;
+  text-shadow: 0 0 2px #7978d6;
 }
 
 .social-icons {
@@ -400,7 +410,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #35298e !important;
 }
 
 /* --------- */
@@ -523,8 +533,8 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: #7978d686!important;
+  border-color: #a199f15e !important;
 }
 
 .btn-primary:hover {
@@ -745,7 +755,7 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #934cce5e !important;
+  background-color: #a199f15e !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -753,8 +763,8 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #7978d686 !important;
+  border-color: #a199f15e !important;
 }
 .fork-btn-inner::after {
   display: none !important;
