@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import Preloader from "../src/components/Pre";
+import React, { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import People from "./components/People/People";
@@ -19,16 +18,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function AppContent() {
-  const [load, upadateLoad] = useState(true);
   const location = useLocation();
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      upadateLoad(false);
-    }, 1200);
-
-    return () => clearTimeout(timer);
-  }, []);
 
   useEffect(() => {
     const body = document.body;
@@ -43,8 +33,7 @@ function AppContent() {
 
   return (
     <>
-      <Preloader load={load} />
-      <div className="App" id={load ? "no-scroll" : "scroll"}>
+      <div className="App" id="scroll">
         <Navbar />
         <ScrollToTop />
         <Routes>
