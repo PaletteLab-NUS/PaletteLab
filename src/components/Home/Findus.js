@@ -14,19 +14,37 @@ function Findus() {
     <Container>
       <Row style={{ paddingTop: "50px", paddingBottom: "80px" }}>
         <Col md={12} className="home-about-social">
-          <h1>Get <span className="purple">In Touch</span></h1>
+          <h1>
+            <a
+              href="https://forms.gle/jhtwNwt2NDhZsEZS9"
+              target="_blank"
+              rel="noreferrer"
+              className="findus-link"
+            >
+              Get <span className="purple">In Touch</span>
+            </a>
+          </h1>
           <div className="findus-body">
             <span>
-              We are <span className="purple">recruiting PhD students</span> to join the lab!
+              We are{" "}
+              <a
+                href="https://forms.gle/jhtwNwt2NDhZsEZS9"
+                target="_blank"
+                rel="noreferrer"
+                className="findus-link"
+              >
+                <span className="purple">recruiting PhD students</span>
+              </a>{" "}
+              to join the lab!
             </span>
-            <a
+            {/* <a
               href="https://forms.gle/jhtwNwt2NDhZsEZS9"
               target="_blank"
               rel="noreferrer"
               className="icon-colour home-social-icons findus-icon"
             >
               <FaWpforms />
-            </a>
+            </a> */}
           </div>
 
         </Col>
