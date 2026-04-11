@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PaletteLab/static/css/main.f144b4e7.css",
-    "main.js": "/PaletteLab/static/js/main.5cc232eb.js",
+    "main.js": "/PaletteLab/static/js/main.1e7b93fe.js",
     "static/js/453.ace21015.chunk.js": "/PaletteLab/static/js/453.ace21015.chunk.js",
     "static/media/feifeiheadshot.jpeg": "/PaletteLab/static/media/feifeiheadshot.ca8fe9f38e4948ace313.jpeg",
     "static/media/palette-logo-480-shadow.png": "/PaletteLab/static/media/palette-logo-480-shadow.8469513a81fdabefa98c.png",
@@ -56,11 +56,11 @@
     "static/media/Haskell.svg": "/PaletteLab/static/media/Haskell.084122e02bec646ad186861642137932.svg",
     "static/media/Firebase.svg": "/PaletteLab/static/media/Firebase.de3da3a4068963dd30fc0f885f170428.svg",
     "main.f144b4e7.css.map": "/PaletteLab/static/css/main.f144b4e7.css.map",
-    "main.5cc232eb.js.map": "/PaletteLab/static/js/main.5cc232eb.js.map",
+    "main.1e7b93fe.js.map": "/PaletteLab/static/js/main.1e7b93fe.js.map",
     "453.ace21015.chunk.js.map": "/PaletteLab/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f144b4e7.css",
-    "static/js/main.5cc232eb.js"
+    "static/js/main.1e7b93fe.js"
   ]
 }
