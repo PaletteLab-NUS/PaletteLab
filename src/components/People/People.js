@@ -14,6 +14,7 @@ import danilo from "./teamData/danilo.json";
 import gabriella from "./teamData/gabriella.json";
 import mingyi from "./teamData/mingyi.json";
 import mengyi from "./teamData/mengyi.json";
+import tianqi from "./teamData/tianqi.json";
 
 import "./People.css";
 
@@ -21,7 +22,7 @@ function People() {
   const professors = [janeSmith];
   const labMembers = [bekzat, bella, feifei, xiyuan, thuyen];
   const futureMembers = [shelly, sixing, jiayu, danilo, gabriella];
-  const collaborators = [mingyi, mengyi];
+  const collaborators = [mingyi, mengyi, tianqi];
 
   const renderSection = (title, members) => {
     let sectionTitle;

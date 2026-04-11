@@ -13,3 +13,11 @@ body {
   background-position-x: center;
   background-repeat: no-repeat;
 }
+
+body.bg-home {
+  background-position-x: right;
+}
+
+body.bg-people {
+  background-position-x: center;
+}

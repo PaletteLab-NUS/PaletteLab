@@ -10,15 +10,17 @@ import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Navigate
+  Navigate,
+  useLocation
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function App() {
+function AppContent() {
   const [load, upadateLoad] = useState(true);
+  const location = useLocation();
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -28,8 +30,19 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
+  useEffect(() => {
+    const body = document.body;
+    body.classList.remove("bg-home", "bg-people");
+
+    if (location.pathname === "/") {
+      body.classList.add("bg-home");
+    } else if (location.pathname === "/people") {
+      body.classList.add("bg-people");
+    }
+  }, [location.pathname]);
+
   return (
-    <Router>
+    <>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
@@ -43,6 +56,14 @@ function App() {
         </Routes>
         <Footer />
       </div>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <AppContent />
     </Router>
   );
 }
