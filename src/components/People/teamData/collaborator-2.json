@@ -1,0 +1,9 @@
+{
+  "id": 8,
+  "name": "Collaborator 2",
+  "role": "Academic Partner",
+  "description": "Research partnership",
+  "image": "../teamImage/collaborator-2.jpg",
+  "category": "collaborator",
+  "url": "https://example.com/collaborator-2"
+}

@@ -7,11 +7,12 @@ html {
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    rgba(29, 29, 30, 0.05),
+    rgba(12, 10, 22, 0.05)
   );
 
   --imp-text-color: #a199f1;
+
 }
 
 .purple {
@@ -256,13 +257,13 @@ button:focus {
 }
 
 .home-header {
-  padding-top: 80px !important;
+  padding-top: 130px !important;
 }
 
 .home-section {
   position: relative;
   z-index: -1;
-  /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
+  /* background-image: var(--image-gradient), url(./Assets/bg-1.png); */
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -276,32 +277,34 @@ button:focus {
 }
 
 .heading {
-  font-size: 2.4em !important;
-  padding-left: 50px !important;
+  font-size: 3.6em !important;
+  padding-left: 10px !important;
 }
 
 .heading-name {
-  font-size: 2.5em !important;
-  padding-left: 45px !important;
+  font-size: 3.4em !important;
+  padding-left: 10px !important;
 }
 
 .main-name {
+  /* color: #7978d6; */
   color: #a199f1;
+
 }
 
 .Typewriter__wrapper {
-  font-size: 2.2em !important;
+  font-size: 2.6em !important;
   color: #a199f1 !important;
-  font-weight: 600 !important;
+  /* font-weight: 600 !important; */
 }
 .Typewriter__cursor {
-  font-size: 2.4em !important;
+  font-size: 2.6em !important;
   color: #7978d6 !important;
 }
 
 @media (max-width: 767px) {
   .Typewriter__wrapper {
-    font-size: 1.4em !important;
+    font-size: 1.7em !important;
     font-weight: 500 !important;
     position: absolute !important;
   }
@@ -312,8 +315,8 @@ button:focus {
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 8em !important;
-  padding-right: 2em !important;
+  padding-top: 3em !important;
+  padding-right: 0em !important;
 }
 
 @media (max-width: 767px) {
@@ -334,7 +337,8 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
-  padding-left: 85px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .home-about-description {
@@ -353,7 +357,8 @@ button:focus {
 
 .home-about-social {
   text-align: center !important;
-  padding-top: 25px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   color: white !important;
 }
 
@@ -367,15 +372,21 @@ button:focus {
 
 .home-social-icons {
   position: relative !important;
-  display: inline-block !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
   width: 40px !important;
   height: 40px !important;
   text-align: center !important;
   font-size: 1.2em !important;
-  line-height: 2em !important;
-  background: rgba(255, 255, 255, 0.972) !important;
+  line-height: 1 !important;
+  background: #E2E1FF !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
+}
+
+.home-social-icons svg {
+  font-size: 0.8em !important;
 }
 
 .home-social-icons::before {
@@ -413,11 +424,55 @@ button:focus {
   color: #35298e !important;
 }
 
+.edit-icon-squared {
+  width: 170px !important;
+  height: auto !important;
+  padding: 10px 15px !important;
+  border-radius: 10px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  line-height: 1 !important;
+}
+
+.edit-icon-squared:hover::before {
+  border-radius: 10px !important;
+}
+
+/* --------- */
+/* News */
+/* --------- */
+.news-body {
+  padding-top: 50px;
+  padding-left: 3px; 
+  font-size: 1.8em !important;
+  text-align: left;
+}
+
+/* --------- */
+/* Findus */
+/* --------- */
+.findus-body {
+  padding-top: 50px;
+  padding-left: 3px; 
+  font-size: 1.8em !important;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.findus-icon {
+  flex: 0 0 auto;
+}
+
+
 /* --------- */
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: #313049a9;
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;

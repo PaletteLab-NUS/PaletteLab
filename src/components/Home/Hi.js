@@ -2,7 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import homeLogo from "../../Assets/palette-logo-480.webp";
+import homeLogo from "../../Assets/palette-logo-480-shadow.png";
+
 import Type from "./Type";
 
 
@@ -14,9 +15,9 @@ function Hi() {
           <Col md={7} className="home-header">
             <h1 style={{ paddingBottom: 15 }} className="heading">
               Hi There!{" "}
-              <span className="wave" role="img" aria-labelledby="wave">
+              {/* <span className="wave" role="img" aria-labelledby="wave">
                 🎨
-              </span>
+              </span> */}
             </h1>
 
             <h1 className="heading-name">
@@ -24,7 +25,7 @@ function Hi() {
               <strong className="main-name"> Palette Lab </strong>
             </h1>
 
-            <div style={{ padding: 50, textAlign: "left" }}>
+            <div style={{ padding: 10, textAlign: "left" }}>
               <Type />
             </div>
           </Col>
@@ -35,7 +36,7 @@ function Hi() {
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "500px"}}
               />
             </Tilt>
           </Col>

@@ -1,0 +1,9 @@
+{
+  "id": 7,
+  "name": "Collaborator 1",
+  "role": "External Partner",
+  "description": "Industry collaboration",
+  "image": "../teamImage/collaborator-1.jpg",
+  "category": "collaborator",
+  "url": "https://example.com/collaborator-1"
+}

@@ -13,14 +13,23 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
+        <Col md="3" className="footer-copywright">
+          {/* <h3>Palette Lab</h3> */}
         </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+        <Col md="6" className="footer-body">
+          <h3>
+            <a
+              href="https://www.onemap.gov.sg/minimap/minimap.html?mapStyle=Default&zoomLevel=17&latLng=1.29455254815536,103.775715192725&popupWidth=200&showPopup=false"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "inherit", textDecoration: "none" }}
+            >
+              Smart Systems Institute, Innovation 4.0, #06-01, 3 Research Link, Singapore 117602
+            </a>
+          </h3>
         </Col>
-        <Col md="4" className="footer-body">
-          <ul className="footer-icons">
+        <Col md="3" className="footer-body">
+          {/* <ul className="footer-icons">
             <li className="social-icons">
               <a
                 href="https://github.com/soumyajit4419"
@@ -61,7 +70,7 @@ function Footer() {
                 <AiFillInstagram />
               </a>
             </li>
-          </ul>
+          </ul> */}
         </Col>
       </Row>
     </Container>
