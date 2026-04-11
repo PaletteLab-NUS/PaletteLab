@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PaletteLab/static/css/main.f48a1225.css",
-    "main.js": "/PaletteLab/static/js/main.fb13194b.js",
+    "main.js": "/PaletteLab/static/js/main.78f59842.js",
     "static/js/453.ace21015.chunk.js": "/PaletteLab/static/js/453.ace21015.chunk.js",
     "static/media/feifeiheadshot.jpeg": "/PaletteLab/static/media/feifeiheadshot.ca8fe9f38e4948ace313.jpeg",
     "static/media/palette-logo-480-shadow.png": "/PaletteLab/static/media/palette-logo-480-shadow.8469513a81fdabefa98c.png",
@@ -45,9 +45,9 @@
     "static/media/Redis.svg": "/PaletteLab/static/media/Redis.ca3be4d5c06fdc721e2c078c75dd59f6.svg",
     "static/media/Java.svg": "/PaletteLab/static/media/Java.980d8e77e92511acfefbf2dfdf4336e1.svg",
     "static/media/Node.svg": "/PaletteLab/static/media/Node.4ccf66deab4cce38fa6a744e962daa9f.svg",
-    "index.html": "/PaletteLab/index.html",
     "static/media/C++.svg": "/PaletteLab/static/media/C++.90772619f39a0a3b04f60ee5c827c002.svg",
     "static/media/Redux.svg": "/PaletteLab/static/media/Redux.e3c7fe5a7438fc995059e630a167bc96.svg",
+    "index.html": "/PaletteLab/index.html",
     "static/media/Javascript.svg": "/PaletteLab/static/media/Javascript.dcff0bf09e6c5ffc3eaea9cc7ec4c8f5.svg",
     "static/media/Typescript.svg": "/PaletteLab/static/media/Typescript.774303fe4118066257168b3609fd95a3.svg",
     "static/media/Git.svg": "/PaletteLab/static/media/Git.9fbdd94cab5e68fd45b434fd29b1bb5e.svg",
@@ -56,11 +56,11 @@
     "static/media/Haskell.svg": "/PaletteLab/static/media/Haskell.084122e02bec646ad186861642137932.svg",
     "static/media/Firebase.svg": "/PaletteLab/static/media/Firebase.de3da3a4068963dd30fc0f885f170428.svg",
     "main.f48a1225.css.map": "/PaletteLab/static/css/main.f48a1225.css.map",
-    "main.fb13194b.js.map": "/PaletteLab/static/js/main.fb13194b.js.map",
+    "main.78f59842.js.map": "/PaletteLab/static/js/main.78f59842.js.map",
     "453.ace21015.chunk.js.map": "/PaletteLab/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f48a1225.css",
-    "static/js/main.fb13194b.js"
+    "static/js/main.78f59842.js"
   ]
 }
