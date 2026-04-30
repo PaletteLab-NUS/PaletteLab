@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PaletteLab/static/css/main.f48a1225.css",
-    "main.js": "/PaletteLab/static/js/main.78f59842.js",
+    "main.js": "/PaletteLab/static/js/main.286c06d6.js",
     "static/js/453.ace21015.chunk.js": "/PaletteLab/static/js/453.ace21015.chunk.js",
     "static/media/feifeiheadshot.jpeg": "/PaletteLab/static/media/feifeiheadshot.ca8fe9f38e4948ace313.jpeg",
     "static/media/palette-logo-480-shadow.png": "/PaletteLab/static/media/palette-logo-480-shadow.8469513a81fdabefa98c.png",
@@ -14,6 +14,7 @@
     "static/media/suicide.png": "/PaletteLab/static/media/suicide.9c86cd7138a398c45fa5.png",
     "static/media/jiayu.jpg": "/PaletteLab/static/media/jiayu.bbe33650d3c673cded8d.jpg",
     "static/media/tianqi.jpg": "/PaletteLab/static/media/tianqi.f33fd97e4c8f8f42ffc6.jpg",
+    "static/media/fuling.jpeg": "/PaletteLab/static/media/fuling.29f452e7aac82aa223b7.jpeg",
     "static/media/danilo.jpeg": "/PaletteLab/static/media/danilo.73525097c96bd1fd0a57.jpeg",
     "static/media/thuyen.jpg": "/PaletteLab/static/media/thuyen.063f5f8a1cfb90cf84b9.jpg",
     "static/media/codeEditor.png": "/PaletteLab/static/media/codeEditor.1b585492490c8c1cace9.png",
@@ -56,11 +57,11 @@
     "static/media/Haskell.svg": "/PaletteLab/static/media/Haskell.084122e02bec646ad186861642137932.svg",
     "static/media/Firebase.svg": "/PaletteLab/static/media/Firebase.de3da3a4068963dd30fc0f885f170428.svg",
     "main.f48a1225.css.map": "/PaletteLab/static/css/main.f48a1225.css.map",
-    "main.78f59842.js.map": "/PaletteLab/static/js/main.78f59842.js.map",
+    "main.286c06d6.js.map": "/PaletteLab/static/js/main.286c06d6.js.map",
     "453.ace21015.chunk.js.map": "/PaletteLab/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f48a1225.css",
-    "static/js/main.78f59842.js"
+    "static/js/main.286c06d6.js"
   ]
 }
