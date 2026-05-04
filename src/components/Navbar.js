@@ -42,7 +42,7 @@ function NavBar() {
         {/* <Navbar.Brand as={Link} to="/" className="d-flex">
           <img src={logo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand> */}
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <img src={logo} className="img-fluid logo" alt="brand"/>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {

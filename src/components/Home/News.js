@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Tilt from "react-parallax-tilt";
 
 function News() {
   return (
@@ -13,6 +14,14 @@ function News() {
             <p className="news-body">
               Palette Lab is heading to CHI 2026! See you in Barcelona! 🇪🇸
             </p>
+              <div className="news-video">
+                <iframe
+                  title="Palette Lab CHI 2026"
+                  src="https://drive.google.com/file/d/1fq1HhmiQrtQmymkMz-1nM2Ak44-T5sB9/preview"
+                  allow="autoplay"
+                  allowFullScreen
+                />
+              </div>
           </Col>
         </Row>
       </Container>

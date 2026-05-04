@@ -450,6 +450,17 @@ button:focus {
   text-align: left;
 }
 
+.news-video {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.news-video iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+}
+
 /* --------- */
 /* Findus */
 /* --------- */

@@ -12,6 +12,7 @@ import sixing from "./teamData/sixing.json";
 import jiayu from "./teamData/jiayu.json";
 import danilo from "./teamData/danilo.json";
 import gabriella from "./teamData/gabriella.json";
+import fuling from "./teamData/fuling.json";
 import mingyi from "./teamData/mingyi.json";
 import mengyi from "./teamData/mengyi.json";
 import tianqi from "./teamData/tianqi.json";
@@ -21,7 +22,7 @@ import "./People.css";
 function People() {
   const professors = [janeSmith];
   const labMembers = [bekzat, bella, feifei, xiyuan, thuyen];
-  const futureMembers = [shelly, sixing, jiayu, danilo, gabriella];
+  const futureMembers = [shelly, sixing, jiayu, danilo, gabriella, fuling];
   const collaborators = [mingyi, mengyi, tianqi];
 
   const renderSection = (title, members) => {
