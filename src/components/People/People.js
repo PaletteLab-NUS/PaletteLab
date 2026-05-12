@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import janeSmith from "./teamData/jane.json";
+import jane from "./teamData/jane.json";
 import bekzat from "./teamData/bekzat.json";
 import bella from "./teamData/bella.json";
 import feifei from "./teamData/feifei.json";
+import kevin from "./teamData/kevin.json";
 import xiyuan from "./teamData/xiyuan.json";
 import thuyen from "./teamData/thuyen.json";
 import shelly from "./teamData/shelly.json";
@@ -15,15 +16,16 @@ import gabriella from "./teamData/gabriella.json";
 import fuling from "./teamData/fuling.json";
 import mingyi from "./teamData/mingyi.json";
 import mengyi from "./teamData/mengyi.json";
+import yize from "./teamData/yize.json";
 import tianqi from "./teamData/tianqi.json";
 
 import "./People.css";
 
 function People() {
-  const professors = [janeSmith];
-  const labMembers = [bekzat, bella, feifei, xiyuan, thuyen];
+  const professors = [jane];
+  const labMembers = [bekzat, bella, feifei, kevin, xiyuan, thuyen];
   const futureMembers = [shelly, sixing, jiayu, danilo, gabriella, fuling];
-  const collaborators = [mingyi, mengyi, tianqi];
+  const collaborators = [mingyi, mengyi, yize, tianqi];
 
   const renderSection = (title, members) => {
     let sectionTitle;
