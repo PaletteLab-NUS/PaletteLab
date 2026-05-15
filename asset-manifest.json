@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PaletteLab/static/css/main.cf7c717b.css",
-    "main.js": "/PaletteLab/static/js/main.c6519aa8.js",
+    "main.js": "/PaletteLab/static/js/main.3863c998.js",
     "static/js/453.ace21015.chunk.js": "/PaletteLab/static/js/453.ace21015.chunk.js",
     "static/media/feifeiheadshot.jpeg": "/PaletteLab/static/media/feifeiheadshot.ca8fe9f38e4948ace313.jpeg",
     "static/media/palette-logo-480-shadow.png": "/PaletteLab/static/media/palette-logo-480-shadow.8469513a81fdabefa98c.png",
@@ -25,9 +25,11 @@
     "static/media/palette-logo-480-blue-test.png": "/PaletteLab/static/media/palette-logo-480-blue-test.d8dd0eb202088dbd767c.png",
     "static/media/palette-logo-480-green-test.png": "/PaletteLab/static/media/palette-logo-480-green-test.8a19fced04ae8b1de77f.png",
     "static/media/palette-logo-480-pink-test.png": "/PaletteLab/static/media/palette-logo-480-pink-test.d8cfb73826cdb198fdd9.png",
+    "static/media/kevin.jpeg": "/PaletteLab/static/media/kevin.aa598e8d012c1452ad44.jpeg",
     "static/media/chatify.png": "/PaletteLab/static/media/chatify.7206044e0b5cdad44726.png",
     "static/media/Soumyajit_Behera.pdf": "/PaletteLab/static/media/Soumyajit_Behera.0a483621860835f0c118.pdf",
     "static/media/janee_purple-480.webp": "/PaletteLab/static/media/janee_purple-480.f8a3081de3e492c65797.webp",
+    "static/media/yize.webp": "/PaletteLab/static/media/yize.4f669d3be8c7e48a3297.webp",
     "static/media/avatar.svg": "/PaletteLab/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
     "static/media/mengyi.jpeg": "/PaletteLab/static/media/mengyi.c496c0ee8f511231b8de.jpeg",
     "static/media/bekzat.jpeg": "/PaletteLab/static/media/bekzat.da73e417042819e70179.jpeg",
@@ -57,11 +59,11 @@
     "static/media/Haskell.svg": "/PaletteLab/static/media/Haskell.084122e02bec646ad186861642137932.svg",
     "static/media/Firebase.svg": "/PaletteLab/static/media/Firebase.de3da3a4068963dd30fc0f885f170428.svg",
     "main.cf7c717b.css.map": "/PaletteLab/static/css/main.cf7c717b.css.map",
-    "main.c6519aa8.js.map": "/PaletteLab/static/js/main.c6519aa8.js.map",
+    "main.3863c998.js.map": "/PaletteLab/static/js/main.3863c998.js.map",
     "453.ace21015.chunk.js.map": "/PaletteLab/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf7c717b.css",
-    "static/js/main.c6519aa8.js"
+    "static/js/main.3863c998.js"
   ]
 }
