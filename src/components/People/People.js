@@ -6,6 +6,7 @@ import bekzat from "./teamData/bekzat.json";
 import bella from "./teamData/bella.json";
 import feifei from "./teamData/feifei.json";
 import kevin from "./teamData/kevin.json";
+import jin from "./teamData/jin.json";
 import xiyuan from "./teamData/xiyuan.json";
 import thuyen from "./teamData/thuyen.json";
 import shelly from "./teamData/shelly.json";
@@ -19,11 +20,12 @@ import mengyi from "./teamData/mengyi.json";
 import yize from "./teamData/yize.json";
 import tianqi from "./teamData/tianqi.json";
 
+
 import "./People.css";
 
 function People() {
   const professors = [jane];
-  const labMembers = [bekzat, bella, feifei, kevin, xiyuan, thuyen];
+  const labMembers = [bekzat, bella, feifei, kevin, jin,xiyuan, thuyen];
   const futureMembers = [shelly, sixing, jiayu, danilo, gabriella, fuling];
   const collaborators = [mingyi, mengyi, yize, tianqi];
 

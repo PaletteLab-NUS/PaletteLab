@@ -17,7 +17,7 @@ function News() {
               <div className="news-video">
                 <iframe
                   title="Palette Lab CHI 2026"
-                  src="https://drive.google.com/file/d/1fq1HhmiQrtQmymkMz-1nM2Ak44-T5sB9/preview"
+                  src="https://drive.google.com/file/d/1gADs0B65_M3VpicZQxC2KvGmjLE1nI4M/preview"
                   allow="autoplay"
                   allowFullScreen
                 />
