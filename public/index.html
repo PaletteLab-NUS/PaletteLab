@@ -34,4 +34,20 @@
   
 </body>
 
+<script>
+  (function(l) {
+    var params = new URLSearchParams(l.search);
+    var p = params.get('p');
+    if (p) {
+      var q = params.get('q');
+      window.history.replaceState(
+        null, null,
+        l.pathname + p +
+        (q ? '?' + q.replace(/~and~/g, '&') : '') +
+        l.hash
+      );
+    }
+  }(window.location))
+</script>
+
 </html>
