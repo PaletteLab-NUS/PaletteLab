@@ -51,7 +51,7 @@ function AppContent() {
 
 function App() {
   return (
-    <Router basename='/PaletteLab'>
+    <Router basename='/'>
       <AppContent />
     </Router>
   );

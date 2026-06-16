@@ -13,7 +13,7 @@ function Introduction() {
       <Container>
         <Row>
           <Col md={9} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 className="home-heading">
               LET'S <span className="purple"> INTRODUCE </span> OURSELVES!
             </h1>
             <p className="home-about-body">

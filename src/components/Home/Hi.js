@@ -9,41 +9,33 @@ import Type from "./Type";
 
 function Hi() {
   return (
-    // <Container  className="home-section" id="home">
-      <Container className="home-content" >
-        <Row>
+    <section className="home-hero" id="home">
+      <Container className="home-content">
+        <Row className="home-hero-row">
           <Col md={7} className="home-header">
-            <h1 style={{ paddingBottom: 15 }} className="heading">
-              Hi There!{" "}
-              {/* <span className="wave" role="img" aria-labelledby="wave">
-                🎨
-              </span> */}
-            </h1>
+            <h1 className="heading">Hi there!</h1>
 
             <h1 className="heading-name">
-              This is
-              <strong className="main-name"> Palette Lab </strong>
+              This is <strong className="main-name">Palette&nbsp;Lab</strong>
             </h1>
 
-            <div style={{ padding: 10, textAlign: "left" }}>
+            <div className="home-typewriter">
               <Type />
             </div>
           </Col>
 
-          <Col md={5} style={{ paddingBottom: 20 }}>
+          <Col md={5} className="home-hero-image">
             <Tilt>
               <img
                 src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "500px"}}
+                alt="Palette Lab logo"
+                className="img-fluid home-hero-logo"
               />
             </Tilt>
           </Col>
-          
         </Row>
       </Container>
-    //  </Container>
+    </section>
   );
 }
 export default Hi;

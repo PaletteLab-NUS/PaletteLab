@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Particle from "../Particle";
 import jane from "./teamData/jane.json";
 import bekzat from "./teamData/bekzat.json";
@@ -47,7 +47,7 @@ function People() {
       <h2 className="section-title">
         {sectionTitle}
       </h2>
-      <Row className="team-row">
+      <div className="team-row">
         {members.map((member) => {
           let imageSrc = member.image;
           try {
@@ -58,10 +58,10 @@ function People() {
             console.warn(`Image not found: ${member.image}`);
           }
           return (
-            <Col key={member.id} className="team-col">
-              <a 
-                href={member.url} 
-                target="_blank" 
+            <div key={member.id} className="team-card-item">
+              <a
+                href={member.url}
+                target="_blank"
                 rel="noopener noreferrer"
                 style={{ textDecoration: "none" }}
               >
@@ -78,10 +78,10 @@ function People() {
                   </div>
                 </div>
               </a>
-            </Col>
+            </div>
           );
         })}
-      </Row>
+      </div>
     </div>
     );
   };

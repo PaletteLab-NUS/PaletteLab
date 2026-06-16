@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -21,28 +21,35 @@ function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
-  function scrollHandler() {
-    if (window.scrollY >= 20) {
-      updateNavbar(true);
-    } else {
-      updateNavbar(false);
+  useEffect(() => {
+    function scrollHandler() {
+      updateNavbar(window.scrollY >= 20);
     }
-  }
 
-  window.addEventListener("scroll", scrollHandler);
+    scrollHandler();
+    window.addEventListener("scroll", scrollHandler);
+    return () => window.removeEventListener("scroll", scrollHandler);
+  }, []);
+
+  const showGlass = navColour || expand;
 
   return (
     <Navbar
       expanded={expand}
       fixed="top"
       expand="md"
-      className={navColour ? "sticky" : "navbar"}
+      className={`site-navbar ${showGlass ? "navbar-glass" : "navbar-transparent"}`}
     >
       <Container>
-        {/* <Navbar.Brand as={Link} to="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
-        </Navbar.Brand> */}
-          <img src={logo} className="img-fluid logo" alt="brand"/>
+        <Navbar.Brand
+          as={Link}
+          to="/"
+          className="d-flex align-items-center navbar-brand-wrap"
+          onClick={() => updateExpanded(false)}
+        >
+          <img src={logo} className="img-fluid logo" alt="Palette Lab logo" />
+          <span className="navbar-brand-text">Palette Lab</span>
+        </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
