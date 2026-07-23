@@ -25,7 +25,7 @@ import "./People.css";
 
 function People() {
   const professors = [jane];
-  const labMembers = [bekzat, bella, feifei, kevin, jin,xiyuan, thuyen];
+  const labMembers = [bekzat, bella, feifei, kevin, jin, xiyuan, thuyen];
   const futureMembers = [shelly, sixing, jiayu, danilo, gabriella, fuling];
   const collaborators = [mingyi, mengyi, yize, tianqi];
 
